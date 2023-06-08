@@ -1,3 +1,5 @@
+clustered-api :
+
 The program checks if it is running as the master process using cluster.isMaster.
 If it is the master process, it forks a worker process for each CPU core using cluster.fork().
 If a worker process dies, the master process creates a new worker to replace it.
